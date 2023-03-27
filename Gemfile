@@ -74,11 +74,6 @@ group :test do
   gem "webdrivers"
 end
 
-# Run against this stable release
-group :development, :test do
-  gem 'rspec-rails'
-end
-
 # Or, run against the main branch
 # (requires main-branch versions of all related RSpec libraries)
 group :development, :test do
